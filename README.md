@@ -2,30 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-##Install Node in linux and create angular proyect
+Deploy of proyect
+-----------------------
+#Install dependencies
 
-1º Step Install the PPA
-	curl -sL https://deb.nodesource.com/setup_9.x | sudo bash -
+sudo npm install
 
-2º Step Install nodejs
-	sudo apt-get install -y nodejs
+#run application:
 
-3º Step check npm and node
-	node -v
-	npm --v
-		
-4º Step Update npm.
-	sudo npm i -g npm
+ng serve --open 
 
-5º Step Install Angular/cli
-	npm install -g @angular/cli
+or 
 
-6º Step Create Angular Proyect
-	ng new nombre-proyecto
+ng serve
 
-7º Step run proyect
-	cd proyect-name
-	ng serve --open
+in Browser : localhost:4200
 
 Font: https://angular.io/guide/quickstart
 
