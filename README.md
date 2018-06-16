@@ -1,6 +1,33 @@
-# MyfirstProyectAngular
+# MyProyectoAngular-Tutorial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+##Install Node in linux and create angular proyect
+
+1º Step Install the PPA
+	curl -sL https://deb.nodesource.com/setup_9.x | sudo bash -
+
+2º Step Install nodejs
+	sudo apt-get install -y nodejs
+
+3º Step check npm and node
+	node -v
+	npm --v
+		
+4º Step Update npm.
+	sudo npm i -g npm
+
+5º Step Install Angular/cli
+	npm install -g @angular/cli
+
+6º Step Create Angular Proyect
+	ng new nombre-proyecto
+
+7º Step run proyect
+	cd proyect-name
+	ng serve --open
+
+Font: https://angular.io/guide/quickstart
 
 ## Development server
 
@@ -25,3 +52,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
